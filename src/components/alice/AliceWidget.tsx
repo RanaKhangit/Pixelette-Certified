@@ -1,7 +1,6 @@
 "use client";
 
 import { useState, useEffect, useCallback, useRef } from "react";
-import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 import { X } from "lucide-react";
 import AliceChat from "./AliceChat";
@@ -58,7 +57,7 @@ export default function AliceWidget() {
               aria-label="Open chat with Alice"
               title="Chat with Alice about certifications"
             >
-              <Image
+              <img
                 src="/logos/favicon.svg"
                 alt="Alice"
                 className="w-8 h-8 group-hover:scale-110 transition-transform duration-300"
@@ -93,7 +92,7 @@ export default function AliceWidget() {
               <div className="flex items-center gap-3">
                 <div className="w-9 h-9 rounded-full bg-[#0A1628] border border-[#C9A84C]/40
                   flex items-center justify-center shrink-0 p-1.5">
-                  <Image src="/logos/favicon.svg" alt="Alice" className="w-full h-full" />
+                  <img src="/logos/favicon.svg" alt="Alice" className="w-full h-full" />
                 </div>
                 <div>
                   <div className="font-bold text-white text-sm">Alice</div>
