@@ -245,7 +245,7 @@ export default function AliceChat({ onClose, onCloseRefReady }: AliceChatProps) 
             <div className="text-center mb-6">
               <h3 className="text-white text-lg font-bold mb-2">Welcome to Pixelette Certified</h3>
               <p className="text-gray-400 text-sm leading-relaxed">
-                I'm Alice, your AI accreditation advisor. Enter your details below and I'll help you find the right certification for your business.
+                I&apos;m Alice, your AI accreditation advisor. Enter your details below and I&apos;ll help you find the right certification for your business.
               </p>
             </div>
 

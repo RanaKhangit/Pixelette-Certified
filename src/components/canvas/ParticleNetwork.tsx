@@ -72,7 +72,6 @@ export default function ParticleNetwork() {
             packetsRef.current,
             matrixRef.current,
             scanYRef.current,
-            time
           );
           time++;
         }

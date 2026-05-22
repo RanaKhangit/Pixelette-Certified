@@ -6,12 +6,11 @@ import { Check, ArrowRight, Clock, Shield, ShieldCheck, Globe, Leaf, Brain, Lock
 import type { Service } from "@/data/services";
 import { getRelatedServices } from "@/data/services";
 import SectionHeading from "@/components/ui/SectionHeading";
-import Card from "@/components/ui/Card";
 import Button from "@/components/ui/Button";
 import Accordion from "@/components/ui/Accordion";
 import CTASection from "@/components/sections/CTASection";
 import FaqSchema from "@/components/seo/FaqSchema";
-import { fadeInUp, fadeInLeft, fadeInRight, staggerContainer, staggerItem, scaleIn } from "@/lib/animations";
+import { fadeInUp, staggerContainer, staggerItem } from "@/lib/animations";
 import { cn } from "@/lib/utils";
 
 type SerializableService = Omit<Service, 'icon'>;

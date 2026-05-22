@@ -1,6 +1,6 @@
 import {
   Landmark, Cpu, Heart, GraduationCap, ShoppingCart,
-  Building2, Scale, Factory, Plane, Wifi, Truck, Gavel, Zap, Radio,
+  Building2, Scale, Factory, Wifi, Truck, Gavel, Zap, Radio,
 } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 
@@ -34,11 +34,11 @@ export const industries: Industry[] = [
       "PCI DSS, SOC 2, and ISO 27001 overlap creates compliance fatigue without expert guidance",
     ],
     certifications: ["ISO 27001", "Cyber Essentials Plus", "ISO 22301", "GDPR", "vCISO"],
-    caseStudySnippet: "A 65-person UK FinTech achieved ISO 27001 in 9 weeks, closing a major banking contract within 30 days of certification.",
+    caseStudySnippet: "A 65-person UK FinTech achieved ISO 27001 in 9 weeks, unlocking enterprise banking contract conversations post-certification.",
     stats: [
       { value: "9wk", label: "Avg FinTech certification" },
-      { value: "340%", label: "Enterprise pipeline increase" },
-      { value: "35%", label: "Insurance premium reduction" },
+      { value: "98%", label: "First-attempt pass rate" },
+      { value: "Fixed-fee", label: "No hourly billing" },
     ],
   },
   {

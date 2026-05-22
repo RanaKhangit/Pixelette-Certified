@@ -8,6 +8,9 @@ export const SITE_CONFIG = {
   phone: "+44 20 7946 0958",
   phoneTel: "+442079460958",
   address: "66 Paul Street, London, EC2A 4NA, United Kingdom",
+  legalEntity: "Pixelette Group Ltd",
+  companyNumber: "07251823",
+  jurisdiction: "England and Wales",
   regions: ["UK", "UAE", "Saudi Arabia", "Qatar", "EU", "Americas", "APAC"],
   social: {
     linkedin: "https://www.linkedin.com/company/pixelette-certified/about/?viewAsMember=true",

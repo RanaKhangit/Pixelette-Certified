@@ -8,7 +8,6 @@ import {
 } from "lucide-react";
 import SectionHeading from "@/components/ui/SectionHeading";
 import Card from "@/components/ui/Card";
-import Button from "@/components/ui/Button";
 import CTASection from "@/components/sections/CTASection";
 import { fadeInUp, staggerContainer, staggerItem } from "@/lib/animations";
 

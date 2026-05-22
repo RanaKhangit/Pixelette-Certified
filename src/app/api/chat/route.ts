@@ -136,7 +136,7 @@ export async function POST(request: Request) {
     }
 
     // Use database messages as authoritative history, fall back to request history
-    let history: ChatMessage[] = conversation.messages;
+    const history: ChatMessage[] = conversation.messages;
     if (history.length === 0 && body.history && Array.isArray(body.history)) {
       for (const msg of body.history) {
         if (msg.role && msg.content && (msg.role === "user" || msg.role === "assistant")) {

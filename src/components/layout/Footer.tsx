@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { Mail, Phone, MapPin, ArrowRight, ExternalLink } from "lucide-react";
+import { Mail, Phone, MapPin, ArrowRight } from "lucide-react";
 import { SITE_CONFIG } from "@/lib/constants";
 
 const quickLinks = [
@@ -161,9 +161,14 @@ export default function Footer() {
       {/* Bottom bar */}
       <div className="border-t border-white/10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 py-4 flex flex-col sm:flex-row items-center justify-between gap-2">
-          <p className="text-xs text-gray-500">
-            &copy; {new Date().getFullYear()} Pixelette Group, Pixelette Certified. All rights reserved.
-          </p>
+          <div className="text-xs text-gray-500 text-center sm:text-left">
+            <p>
+              {SITE_CONFIG.legalEntity} &middot; Company No. {SITE_CONFIG.companyNumber} &middot; Registered in {SITE_CONFIG.jurisdiction}
+            </p>
+            <p className="mt-1">
+              &copy; {new Date().getFullYear()} Pixelette Group, Pixelette Certified. All rights reserved.
+            </p>
+          </div>
           <div className="flex gap-4 text-xs text-gray-500">
             <Link href="/privacy-policy" className="hover:text-accent transition-colors">
               Privacy Policy

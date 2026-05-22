@@ -93,7 +93,7 @@ export default function HomePage() {
               "50+ certifications delivered across banking, healthcare, SaaS, AI, manufacturing, and government supply chains.",
               "98% first-attempt pass rate, meaning your audit fee, your internal time, and your deal timeline are protected.",
               "10 weeks from kick-off to certificate, fast enough to unblock a procurement gate, slow enough to do it properly.",
-              "One client closed a major bank contract within 30 days of certification (see FinTech case study).",
+              "FinTech clients have used certification to unlock enterprise banking contracts (see FinTech case study).",
             ].map((point) => (
               <Card key={point} variant="glass" hover={false} className="flex items-start gap-3">
                 <Shield className="h-5 w-5 text-accent shrink-0 mt-0.5" />

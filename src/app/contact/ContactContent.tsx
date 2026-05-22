@@ -443,7 +443,7 @@ export default function ContactContent() {
                     },
                     {
                       icon: Award,
-                      text: "8 active certifications held across PECB, ISACA, IAPP, and CQI/IRCA",
+                      text: "9 active certifications across IRCA, PECB, IAPP, ISACA, and EC-Council, including our own ISO 27001 Certified Practice",
                     },
                     {
                       icon: Send,

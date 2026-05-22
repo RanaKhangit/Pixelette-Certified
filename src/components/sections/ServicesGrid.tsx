@@ -20,6 +20,11 @@ const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
   "gdpr-privacy": Scale,
 };
 
+const PAGES_WITH_ROUTES = new Set([
+  "iso-27001", "iso-22301", "iso-9001", "iso-14001", "iso-42001",
+  "cyber-essentials", "vciso", "vdpo", "penetration-testing", "gdpr-privacy",
+]);
+
 export default function ServicesGrid() {
   return (
     <section className="relative py-20 lg:py-28 bg-gradient-dark overflow-hidden">
@@ -41,7 +46,7 @@ export default function ServicesGrid() {
           viewport={{ once: true, margin: "-100px" }}
           className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4"
         >
-          {services.map((service) => {
+          {services.filter((service) => PAGES_WITH_ROUTES.has(service.slug)).map((service) => {
             const IconComponent = iconMap[service.slug] || Shield;
             return (
               <motion.div key={service.slug} variants={staggerItem}>
@@ -67,6 +72,15 @@ export default function ServicesGrid() {
             );
           })}
         </motion.div>
+
+        <div className="mt-10 text-center">
+          <Link
+            href="/services"
+            className="inline-flex items-center gap-2 text-sm font-semibold text-accent hover:text-accent-light transition-colors"
+          >
+            View all services <ArrowRight className="h-4 w-4" />
+          </Link>
+        </div>
       </div>
     </section>
   );

@@ -29,7 +29,6 @@ export interface MatrixColumn {
 
 const ACCENT = "20, 170, 169"; // #14AAA9 as RGB
 const ACCENT_LIGHT = "28, 196, 195"; // #1cc4c3
-const PRIMARY = "4, 65, 67"; // #044143
 
 function randomChar(): string {
   const chars = "01ABCDEF";
@@ -94,7 +93,6 @@ export function updateAndDraw(
   packets: DataPacket[],
   matrixCols: MatrixColumn[],
   scanY: { value: number },
-  time: number
 ) {
   ctx.clearRect(0, 0, width, height);
 

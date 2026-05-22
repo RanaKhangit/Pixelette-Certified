@@ -23,9 +23,9 @@ export default function PrivacyPolicyPage() {
           <section>
             <h2 className="text-xl font-bold text-white mb-3">1. Who We Are</h2>
             <p>
-              Pixelette Certified is a trading name of Pixelette Group Ltd, registered in England and Wales.
-              We are a UK-based ISO certification and compliance consultancy. For the purposes of UK GDPR,
-              Pixelette Group Ltd is the data controller.
+              Pixelette Certified is a trading name of Pixelette Group Ltd, registered in England and Wales
+              under company number 07251823. We are a UK-based ISO certification and compliance consultancy.
+              For the purposes of UK GDPR, Pixelette Group Ltd is the data controller.
             </p>
             <p className="mt-2">
               <strong className="text-white">Email:</strong>{" "}

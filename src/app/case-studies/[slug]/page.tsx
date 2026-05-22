@@ -28,13 +28,11 @@ const caseStudiesData: Record<string, CaseStudyData> = {
     ],
     metrics: [
       { value: "9", label: "Weeks to certification" },
-      { value: "340%", label: "Enterprise pipeline increase" },
       { value: "0", label: "Major audit findings" },
-      { value: "35%", label: "Reduction in insurance premium" },
     ],
     testimonial: {
       quote:
-        "We went from losing enterprise deals to closing them. The ROI on ISO 27001 was measurable within sixty days of certification. Pixelette Certified made a process we expected to take six months happen in nine weeks.",
+        "We went from losing enterprise deals to closing them. The ROI on ISO 27001 was measurable post-certification. Pixelette Certified made a process we expected to take six months happen in nine weeks.",
       author: "CTO",
       role: "UK FinTech Company",
     },
@@ -67,7 +65,6 @@ const caseStudiesData: Record<string, CaseStudyData> = {
     metrics: [
       { value: "14", label: "Weeks to dual certification" },
       { value: "60%", label: "Control overlap leveraged" },
-      { value: "3", label: "Enterprise deals closed in 60 days" },
       { value: "1st", label: "Among first UK AI companies certified" },
     ],
     testimonial: {
@@ -105,7 +102,6 @@ const caseStudiesData: Record<string, CaseStudyData> = {
     metrics: [
       { value: "3", label: "Weeks to Cyber Essentials" },
       { value: "12", label: "Weeks to ISO 27001" },
-      { value: "35%", label: "Insurance premium reduction" },
       { value: "100%", label: "Contract renewals secured" },
     ],
     testimonial: {

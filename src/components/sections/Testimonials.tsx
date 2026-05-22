@@ -8,7 +8,7 @@ import { staggerContainer, staggerItem } from "@/lib/animations";
 const testimonials = [
   {
     quote:
-      "We needed ISO 27001 to close a contract with a major bank. Pixelette Certified got us through Stage 2 in 9 weeks. The deal closed within 30 days of certification.",
+      "We needed ISO 27001 to close a contract with a major bank. Pixelette Certified got us through Stage 2 in 9 weeks.",
     author: "CTO",
     company: "FinTech",
     rating: 5,

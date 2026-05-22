@@ -40,12 +40,12 @@ export default function Hero() {
             ))}
           </div>
           <h1 className="text-4xl sm:text-5xl lg:text-[3.5rem] xl:text-6xl font-extrabold tracking-tight leading-[1.08] mb-6">
-            <span className="gradient-text-white">Your Next Enterprise Deal Is Waiting on a Certificate You Don't Have Yet.</span>
+            <span className="gradient-text-white">Your Next Enterprise Deal Is Waiting on a Certificate You Don&apos;t Have Yet.</span>
             <br />
             <span className="gradient-text">We Fix That in 10 Weeks.</span>
           </h1>
           <p className="text-lg text-gray-300 mb-8 max-w-xl leading-relaxed">
-            Enterprise contracts. Government frameworks. Investor due diligence. The deals you're losing because you're not yet certified, we close that gap in 10 weeks. Fixed fee. 98% first-attempt pass rate. UK-headquartered. Globally delivered.
+            Enterprise contracts. Government frameworks. Investor due diligence. The deals you&apos;re losing because you&apos;re not yet certified, we close that gap in 10 weeks. Fixed fee. 98% first-attempt pass rate. UK-headquartered. Globally delivered.
           </p>
           <div className="flex flex-wrap gap-4">
             <Button href="/contact" size="lg">
@@ -56,7 +56,7 @@ export default function Hero() {
             </Button>
           </div>
 
-{/* Stats moved to TrustBar section below hero */}
+          {/* Stats moved to TrustBar section below hero */}
         </motion.div>
 
         {/* Right visual, animated concentric rings with glow */}
