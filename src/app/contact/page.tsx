@@ -3,7 +3,7 @@ import ContactContent from "./ContactContent";
 import JsonLd from "@/components/seo/JsonLd";
 
 export const metadata: Metadata = {
-  title: "Contact Pixelette Certified | Book Your Assessment | Global Compliance Consultancy",
+  title: "Contact | Book Your Free Gap Analysis",
   description:
     "Book a free 30-minute gap analysis with Pixelette Certified. Global ISO 27001, ISO 42001, Cyber Essentials and GDPR consultancy serving businesses across every industry worldwide. Response within 1 working day.",
   openGraph: {

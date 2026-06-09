@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Case Studies | ISO Certification Results | Pixelette Certified",
+  title: "Case Studies | ISO Certification Results",
   description:
     "Real results for real businesses. ISO 27001, ISO 42001, Cyber Essentials and GDPR certification case studies across FinTech, AI, healthcare, and more. See how Pixelette Certified delivers.",
   alternates: {

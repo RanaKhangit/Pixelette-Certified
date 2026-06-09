@@ -1,0 +1,45 @@
+# Pixelette Certified
+
+> UK-headquartered ISO certification and compliance consultancy. Fixed-fee. Senior-led. 98% first-attempt pass rate. Globally delivered across UK, UAE, Saudi Arabia, Qatar, EU, Americas, and APAC.
+
+Pixelette Certified is operated by Pixelette Group Ltd (Companies House 07251823), registered in England and Wales. Office: 66 Paul Street, London, EC2A 4NA. Contact: info@pixelettecertified.com.
+
+## What We Do
+
+We help technology companies, FinTechs, healthcare providers, manufacturers, and government suppliers achieve ISO certification and regulatory compliance — faster, at fixed cost, with a 98% first-attempt pass rate.
+
+Core services: ISO 27001 (information security), ISO 42001 (AI governance), ISO 22301 (business continuity), ISO 9001 (quality management), ISO 14001 (environmental), Cyber Essentials and Cyber Essentials Plus, GDPR / UK GDPR compliance, Virtual CISO (vCISO), Virtual DPO (vDPO), Penetration Testing (VAPT), and regional GRC frameworks (SAMA CSF, NCA ECC/CCC, QCB/NIA).
+
+## Key Facts
+
+- 50+ ISO certifications delivered
+- 98% first-attempt audit pass rate
+- 10-week standard delivery from kickoff to certificate
+- Fixed-fee engagements (no hourly billing, no scope creep)
+- ISO 27001 Certified Practice — we hold the same certification we help you achieve
+- PECB-certified Lead Auditor on staff — among the first in the UK to offer ISO 42001
+- Pixelette Pass-First Guarantee: if a failure occurs due to a gap in our documentation, we cover the remediation at no extra cost
+
+## Services
+
+- [ISO 27001 Certification](https://pixelettecertified.com/services/iso-27001): Information Security Management System. 10-week implementation. UK government and enterprise supply chain standard.
+- [ISO 42001 AI Governance](https://pixelettecertified.com/services/iso-42001): AI Management System. EU AI Act aligned. PECB-certified auditor. Delivered in 14 weeks.
+- [ISO 22301 Business Continuity](https://pixelettecertified.com/services/iso-22301): Business Continuity Management. Disaster recovery, crisis management, resilience.
+- [ISO 9001 Quality Management](https://pixelettecertified.com/services/iso-9001): Quality Management System. Widely required in enterprise procurement.
+- [ISO 14001 Environmental Management](https://pixelettecertified.com/services/iso-14001): Environmental Management System. ESG and sustainability obligations.
+- [Cyber Essentials / CE Plus](https://pixelettecertified.com/services/cyber-essentials): UK government-backed. Required for public sector contracts. 2–3 week delivery.
+- [vCISO](https://pixelettecertified.com/services/vciso): Virtual Chief Information Security Officer. Fractional senior security leadership on a monthly retainer.
+- [vDPO](https://pixelettecertified.com/services/vdpo): Virtual Data Protection Officer. GDPR compliance, DSR management, DPIAs, ICO liaison.
+- [Penetration Testing](https://pixelettecertified.com/services/penetration-testing): VAPT — web application, API, network, and cloud. CVSS-scored reports.
+- [GDPR & Privacy](https://pixelettecertified.com/services/gdpr-privacy): UK GDPR and EU GDPR compliance programmes.
+
+## Pages
+
+- [Home](https://pixelettecertified.com): Overview, services, commercial impact, testimonials.
+- [Services](https://pixelettecertified.com/services): Full service catalogue.
+- [About](https://pixelettecertified.com/about): Company background, team credentials, ISO 27001 Certified Practice status.
+- [Industries](https://pixelettecertified.com/industries): Sector-specific compliance: FinTech, healthcare, SaaS, manufacturing, legal, logistics, government.
+- [Case Studies](https://pixelettecertified.com/case-studies): Client outcomes and certification journeys.
+- [Blog](https://pixelettecertified.com/blog): ISO and compliance guides for technology companies.
+- [Pricing](https://pixelettecertified.com/pricing): Fixed-fee model explained.
+- [Contact](https://pixelettecertified.com/contact): Book a free 30-minute gap analysis.

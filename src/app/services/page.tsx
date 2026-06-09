@@ -4,7 +4,7 @@ import JsonLd from "@/components/seo/JsonLd";
 import ServicesOverviewContent from "./ServicesOverviewContent";
 
 export const metadata: Metadata = {
-  title: "Our Services | ISO Certification & Global Compliance Consultancy | Pixelette Certified",
+  title: "Our Services | ISO Certification & Compliance Consultancy",
   description:
     "ISO 27001, ISO 42001, ISO 9001, ISO 22301, ISO 14001, Cyber Essentials, GDPR, vCISO, vDPO, and Penetration Testing. Global compliance consultancy for businesses across every industry.",
   keywords: [

@@ -249,7 +249,7 @@ export const services: Service[] = [
     ],
     relatedSlugs: ["iso-27001", "gdpr-privacy", "vciso"],
     seo: {
-      title: "ISO 42001 AI Governance Certification UK | Pixelette",
+      title: "ISO 42001 AI Governance Certification UK",
       description: "Achieve ISO 42001 AI governance certification in 14 weeks. One of the only UK consultancies formally offering ISO 42001. EU AI Act ready.",
       keywords: ["ISO 42001 certification", "AI governance", "AIMS", "EU AI Act compliance", "responsible AI"],
     },
@@ -442,7 +442,7 @@ export const services: Service[] = [
     ],
     relatedSlugs: ["vdpo", "iso-27001", "iso-42001"],
     seo: {
-      title: "GDPR Compliance Services UK | Pixelette Certified",
+      title: "GDPR Compliance Services UK",
       description: "Turn GDPR obligations into a competitive advantage. UK data protection compliance, DPIAs, and data mapping. Expert-led. Fixed-fee engagement.",
       keywords: ["GDPR compliance UK", "data privacy", "data protection", "GDPR consultant"],
     },

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Compliance & ISO Certification Blog | Pixelette Certified",
+  title: "Compliance & ISO Certification Blog",
   description:
     "Expert insights on ISO 27001, Cyber Essentials, GDPR and AI governance for businesses operating in any market. Written by certified compliance practitioners.",
   alternates: {

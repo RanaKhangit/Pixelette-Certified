@@ -4,7 +4,7 @@ import IndustriesContent from "./IndustriesContent";
 import JsonLd from "@/components/seo/JsonLd";
 
 export const metadata: Metadata = {
-  title: "Industries We Serve | Global Compliance Expertise | Pixelette Certified",
+  title: "Industries We Serve | Global Compliance Expertise",
   description:
     "Pixelette Certified delivers ISO certification and compliance consultancy to businesses across every industry, FinTech, healthcare, manufacturing, logistics, legal, energy, education, retail, and more. Globally delivered.",
   keywords: [
