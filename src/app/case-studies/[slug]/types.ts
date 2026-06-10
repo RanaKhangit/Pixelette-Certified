@@ -5,6 +5,7 @@ export interface CaseStudyMetric {
 
 export interface CaseStudyData {
   slug: string;
+  seoTitle?: string;
   client: string;
   industry: string;
   employees: string;

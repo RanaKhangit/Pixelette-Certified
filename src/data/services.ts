@@ -83,7 +83,7 @@ export const services: Service[] = [
     ],
     relatedSlugs: ["cyber-essentials", "vciso", "gdpr-privacy"],
     seo: {
-      title: "ISO 27001 Certification UK | 10 Weeks | Fixed Fee",
+      title: "ISO 27001 Certification UK | Fixed Fee",
       description: "Get ISO 27001 certified in 10 weeks. UK-based expert-led implementation from gap analysis to Stage 2 audit. Fixed-fee engagement. 98% first-attempt pass rate.",
       keywords: ["ISO 27001 certification UK", "ISO 27001 consultant", "ISMS implementation", "information security certification"],
     },
@@ -125,7 +125,7 @@ export const services: Service[] = [
     ],
     relatedSlugs: ["iso-27001", "iso-9001", "vciso"],
     seo: {
-      title: "ISO 22301 Business Continuity Certification UK",
+      title: "ISO 22301 Business Continuity UK",
       description: "ISO 22301 certification for UK businesses. Business continuity management, disaster recovery planning, and audit support. Expert-led implementation.",
       keywords: ["ISO 22301 certification UK", "business continuity", "BCMS", "disaster recovery"],
     },
@@ -166,7 +166,7 @@ export const services: Service[] = [
     ],
     relatedSlugs: ["iso-27001", "iso-14001", "iso-22301"],
     seo: {
-      title: "ISO 9001 Quality Management Certification UK",
+      title: "ISO 9001 Quality Management UK",
       description: "ISO 9001 certification for UK businesses. Quality management system implementation, audit support, and continuous improvement. Fixed-fee engagement.",
       keywords: ["ISO 9001 certification UK", "quality management", "QMS"],
     },
@@ -207,8 +207,8 @@ export const services: Service[] = [
     ],
     relatedSlugs: ["iso-9001", "iso-27001", "iso-22301"],
     seo: {
-      title: "ISO 14001 Environmental Management Certification UK",
-      description: "ISO 14001 certification for UK businesses. Environmental management system implementation and audit support.",
+      title: "ISO 14001 Environmental Cert UK",
+      description: "ISO 14001 certification for UK businesses. Environmental management system implementation, gap analysis and audit support. Expert-led, fixed-fee engagement.",
       keywords: ["ISO 14001 certification UK", "environmental management", "EMS", "sustainability certification"],
     },
   },
@@ -249,8 +249,8 @@ export const services: Service[] = [
     ],
     relatedSlugs: ["iso-27001", "gdpr-privacy", "vciso"],
     seo: {
-      title: "ISO 42001 AI Governance Certification UK | Pixelette",
-      description: "Achieve ISO 42001 AI governance certification in 14 weeks. One of the only UK consultancies formally offering ISO 42001. EU AI Act ready.",
+      title: "ISO 42001 AI Governance Cert UK",
+      description: "Achieve ISO 42001 AI governance certification in 14 weeks. One of the only UK consultancies formally offering ISO 42001. EU AI Act ready. Fixed-fee engagement.",
       keywords: ["ISO 42001 certification", "AI governance", "AIMS", "EU AI Act compliance", "responsible AI"],
     },
   },
@@ -288,7 +288,7 @@ export const services: Service[] = [
     ],
     relatedSlugs: ["iso-27001", "penetration-testing", "vciso"],
     seo: {
-      title: "Cyber Essentials Certification UK | Fixed Fee",
+      title: "Cyber Essentials Certification UK",
       description: "UK government-backed Cyber Essentials and Cyber Essentials Plus certification. Fixed-fee. Fast-track 2–3 week delivery for government suppliers and NHS.",
       keywords: ["Cyber Essentials certification", "Cyber Essentials Plus", "UK government certification", "cybersecurity certification"],
     },
@@ -328,8 +328,8 @@ export const services: Service[] = [
     ],
     relatedSlugs: ["iso-27001", "vdpo", "penetration-testing"],
     seo: {
-      title: "Virtual CISO (vCISO) UK | Monthly Retainer",
-      description: "Senior security leadership without the full-time hire. vCISO retainers on a flexible monthly basis. Board-level strategy, risk management, and compliance governance.",
+      title: "Virtual CISO (vCISO) Service UK",
+      description: "Senior security leadership without the full-time hire. Flexible monthly vCISO retainers covering board-level strategy, risk and compliance governance.",
       keywords: ["vCISO UK", "virtual CISO", "fractional CISO", "security leadership"],
     },
   },
@@ -365,8 +365,8 @@ export const services: Service[] = [
     ],
     relatedSlugs: ["gdpr-privacy", "vciso", "iso-27001"],
     seo: {
-      title: "Virtual DPO (vDPO) Service UK | GDPR Data Protection Officer",
-      description: "Virtual Data Protection Officer service. GDPR compliance, DSR management, DPIAs, and ongoing DPO duties. Monthly retainer.",
+      title: "Virtual DPO (vDPO) Service UK",
+      description: "Virtual Data Protection Officer service for UK businesses. GDPR compliance, DSR management, DPIAs and ongoing DPO duties on a flexible monthly retainer.",
       keywords: ["vDPO UK", "virtual DPO", "data protection officer", "GDPR DPO"],
     },
   },
@@ -403,7 +403,7 @@ export const services: Service[] = [
     ],
     relatedSlugs: ["cyber-essentials", "iso-27001", "vciso"],
     seo: {
-      title: "Penetration Testing UK | VAPT | Web, API & Network Testing",
+      title: "Penetration Testing UK | VAPT",
       description: "Professional penetration testing for UK businesses. Web application, API, and network security testing. CVSS-scored reports. Fixed-fee engagement.",
       keywords: ["penetration testing UK", "VAPT", "web application testing", "API security testing"],
     },
@@ -442,7 +442,7 @@ export const services: Service[] = [
     ],
     relatedSlugs: ["vdpo", "iso-27001", "iso-42001"],
     seo: {
-      title: "GDPR Compliance Services UK | Pixelette Certified",
+      title: "GDPR Compliance Consultancy UK",
       description: "Turn GDPR obligations into a competitive advantage. UK data protection compliance, DPIAs, and data mapping. Expert-led. Fixed-fee engagement.",
       keywords: ["GDPR compliance UK", "data privacy", "data protection", "GDPR consultant"],
     },

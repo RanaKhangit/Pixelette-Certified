@@ -10,6 +10,7 @@ import Button from "@/components/ui/Button";
 import Accordion from "@/components/ui/Accordion";
 import CTASection from "@/components/sections/CTASection";
 import FaqSchema from "@/components/seo/FaqSchema";
+import Breadcrumbs from "@/components/seo/Breadcrumbs";
 import { fadeInUp, staggerContainer, staggerItem } from "@/lib/animations";
 import { cn } from "@/lib/utils";
 
@@ -50,6 +51,11 @@ export default function ServicePageTemplate({ service }: ServicePageTemplateProp
         />
         {/* Gradient orb */}
         <div className="absolute -top-40 -right-40 w-[500px] h-[500px] rounded-full bg-accent/5 blur-3xl pointer-events-none" />
+
+        {/* Breadcrumb */}
+        <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 mb-8">
+          <Breadcrumbs dark schema={false} items={[{ name: "Services", href: "/services" }, { name: service.shortTitle }]} />
+        </div>
 
         <motion.div
           variants={fadeInUp}

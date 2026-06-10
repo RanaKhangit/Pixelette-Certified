@@ -5,6 +5,8 @@ import Link from "next/link";
 import Card from "@/components/ui/Card";
 import Button from "@/components/ui/Button";
 import JsonLd from "@/components/seo/JsonLd";
+import Breadcrumbs from "@/components/seo/Breadcrumbs";
+import { categorySlug } from "@/lib/categories";
 
 interface BlogPostData {
   slug: string;
@@ -49,13 +51,16 @@ export default function BlogPostClient({
             headline: post.title,
             description: post.description,
             datePublished: post.date,
+            dateModified: post.date,
             author: {
               "@type": "Person",
               name: post.author,
               jobTitle: post.authorRole,
+              worksFor: { "@id": "https://pixelettecertified.com/#organization" },
             },
             publisher: {
               "@type": "Organization",
+              "@id": "https://pixelettecertified.com/#organization",
               name: "Pixelette Certified",
               url: "https://pixelettecertified.com",
             },
@@ -65,6 +70,11 @@ export default function BlogPostClient({
             },
           }}
         />
+
+        {/* Breadcrumb */}
+        <div className="mb-6">
+          <Breadcrumbs dark schema={false} items={[{ name: "Blog", href: "/blog" }, { name: post.title }]} />
+        </div>
 
         {/* Back link */}
         <motion.div
@@ -87,9 +97,12 @@ export default function BlogPostClient({
           transition={{ duration: 0.5 }}
           className="mb-12"
         >
-          <span className="inline-block px-3 py-1 text-xs font-bold uppercase tracking-wider text-accent bg-accent/10 border border-accent/20 rounded-full mb-4">
+          <Link
+            href={`/blog/category/${categorySlug(post.category)}`}
+            className="inline-block px-3 py-1 text-xs font-bold uppercase tracking-wider text-accent bg-accent/10 border border-accent/20 rounded-full mb-4 hover:bg-accent/20 transition-colors"
+          >
             {post.category}
-          </span>
+          </Link>
 
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-white tracking-tight leading-tight mb-6">
             {post.title}
