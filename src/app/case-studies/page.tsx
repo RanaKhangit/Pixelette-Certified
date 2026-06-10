@@ -6,6 +6,7 @@ import Card from "@/components/ui/Card";
 import SectionHeading from "@/components/ui/SectionHeading";
 import Button from "@/components/ui/Button";
 import { caseStudies } from "@/data/caseStudies";
+import Breadcrumbs from "@/components/seo/Breadcrumbs";
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -30,6 +31,9 @@ export default function CaseStudiesPage() {
       <div className="absolute inset-0 bg-gradient-to-b from-primary-dark via-primary to-primary-dark pointer-events-none" />
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="mb-8">
+          <Breadcrumbs dark items={[{ name: "Case Studies" }]} />
+        </div>
         <SectionHeading
           as="h1"
           label="Case Studies"

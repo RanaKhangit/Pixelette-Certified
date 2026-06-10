@@ -22,7 +22,7 @@ export async function generateMetadata({
   }
 
   return {
-    title: `${result.category} Articles | Compliance Blog`,
+    title: `${result.category} Articles | Pixelette Certified Blog`,
     description: `Guides and insights on ${result.category} from Pixelette Certified. Practitioner-written articles on certification, compliance and AI governance.`,
     alternates: {
       canonical: `https://pixelettecertified.com/blog/category/${slug}`,

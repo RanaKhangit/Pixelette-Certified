@@ -7,6 +7,7 @@ import SectionHeading from "@/components/ui/SectionHeading";
 import Button from "@/components/ui/Button";
 
 import { blogPosts } from "@/data/blogPosts";
+import Breadcrumbs from "@/components/seo/Breadcrumbs";
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -40,6 +41,9 @@ export default function BlogPage() {
       <div className="absolute inset-0 bg-gradient-to-b from-primary-dark via-primary to-primary-dark pointer-events-none" />
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="mb-8">
+          <Breadcrumbs dark items={[{ name: "Blog" }]} />
+        </div>
         <SectionHeading
           as="h1"
           label="Blog"

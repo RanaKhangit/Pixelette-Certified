@@ -8,7 +8,7 @@ export type { CaseStudyData, CaseStudyMetric } from "./types";
 const caseStudiesData: Record<string, CaseStudyData> = {
   "uk-fintech-iso-27001": {
     slug: "uk-fintech-iso-27001",
-    seoTitle: "UK FinTech ISO 27001 Case Study",
+    seoTitle: "UK FinTech ISO 27001 Case Study | Pixelette Certified",
     client: "UK FinTech",
     industry: "Financial Technology",
     employees: "65 employees",
@@ -45,7 +45,7 @@ const caseStudiesData: Record<string, CaseStudyData> = {
   },
   "ai-saas-iso-42001-iso-27001": {
     slug: "ai-saas-iso-42001-iso-27001",
-    seoTitle: "AI SaaS ISO 42001 Case Study",
+    seoTitle: "AI SaaS ISO 42001 + 27001 Case Study | Pixelette",
     client: "AI SaaS Platform",
     industry: "Artificial Intelligence",
     employees: "40 employees",
@@ -83,7 +83,7 @@ const caseStudiesData: Record<string, CaseStudyData> = {
   },
   "healthcare-tech-cyber-essentials-iso-27001": {
     slug: "healthcare-tech-cyber-essentials-iso-27001",
-    seoTitle: "Healthcare ISO 27001 Case Study",
+    seoTitle: "Healthcare ISO 27001 Case Study | Pixelette Certified",
     client: "Healthcare Tech",
     industry: "Healthcare Technology",
     employees: "120 employees",
