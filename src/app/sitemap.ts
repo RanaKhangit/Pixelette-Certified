@@ -2,6 +2,7 @@ import type { MetadataRoute } from "next";
 import { services } from "@/data/services";
 import { caseStudies } from "@/data/caseStudies";
 import { SITE_CONFIG } from "@/lib/constants";
+import { allCategories, categorySlug } from "@/lib/categories";
 
 // Update when site structure/content materially changes; keeps sitemap lastmod
 // honest rather than stamping the request time on every fetch.
@@ -122,5 +123,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   }));
 
-  return [...staticPages, ...servicePages, ...caseStudyPages, ...blogPages];
+  const blogCategoryPages: MetadataRoute.Sitemap = allCategories().map((c) => ({
+    url: `${baseUrl}/blog/category/${categorySlug(c)}`,
+    lastModified: SITE_LAST_MODIFIED,
+    changeFrequency: "weekly" as const,
+    priority: 0.5,
+  }));
+
+  return [
+    ...staticPages,
+    ...servicePages,
+    ...caseStudyPages,
+    ...blogPages,
+    ...blogCategoryPages,
+  ];
 }
