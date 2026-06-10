@@ -5,6 +5,7 @@ import Link from "next/link";
 import Card from "@/components/ui/Card";
 import Button from "@/components/ui/Button";
 import JsonLd from "@/components/seo/JsonLd";
+import Breadcrumbs from "@/components/seo/Breadcrumbs";
 
 interface BlogPostData {
   slug: string;
@@ -68,6 +69,11 @@ export default function BlogPostClient({
             },
           }}
         />
+
+        {/* Breadcrumb */}
+        <div className="mb-6">
+          <Breadcrumbs dark schema={false} items={[{ name: "Blog", href: "/blog" }, { name: post.title }]} />
+        </div>
 
         {/* Back link */}
         <motion.div

@@ -7,6 +7,7 @@ import Button from "@/components/ui/Button";
 import Card from "@/components/ui/Card";
 import { fadeInUp, staggerContainer, staggerItem } from "@/lib/animations";
 import JsonLd from "@/components/seo/JsonLd";
+import Breadcrumbs from "@/components/seo/Breadcrumbs";
 
 interface CaseStudyMetric {
   value: string;
@@ -37,11 +38,14 @@ export default function CaseStudyClient({ study }: { study: CaseStudyData }) {
           "@type": "Article",
           headline: `${study.client} - ${study.certifications.join(" + ")} Case Study`,
           description: study.overview,
-          publisher: { "@type": "Organization", name: "Pixelette Certified" },
+          publisher: { "@type": "Organization", "@id": "https://pixelettecertified.com/#organization", name: "Pixelette Certified" },
         }}
       />
       <section className="bg-primary py-16 lg:py-24">
         <div className="max-w-4xl mx-auto px-4 sm:px-6">
+          <div className="mb-6">
+            <Breadcrumbs dark items={[{ name: "Case Studies", href: "/case-studies" }, { name: study.client }]} />
+          </div>
           <Link href="/case-studies" className="inline-flex items-center gap-2 text-accent hover:text-accent-light text-sm font-semibold mb-8 transition-colors">
             <ArrowLeft className="h-4 w-4" /> Back to Case Studies
           </Link>
