@@ -28,10 +28,12 @@ export default function HomePage() {
         data={{
           "@context": "https://schema.org",
           "@type": "WebSite",
+          "@id": "https://pixelettecertified.com/#website",
           name: "Pixelette Certified",
           url: "https://pixelettecertified.com",
           description:
             "UK-headquartered ISO certification and compliance consultancy. ISO 27001, ISO 42001, Cyber Essentials, GDPR, vCISO, vDPO, SOC 2, penetration testing, and AI governance. Globally delivered across UK, UAE, Saudi Arabia, Qatar, EU, Americas, and APAC.",
+          publisher: { "@id": "https://pixelettecertified.com/#organization" },
         }}
       />
       <Hero />

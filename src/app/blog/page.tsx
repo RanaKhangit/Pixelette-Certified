@@ -213,6 +213,7 @@ export default function BlogPage() {
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeading
+          as="h1"
           label="Blog"
           title="Insights & Guides"
           description="Compliance Intelligence, Strategic thinking on certification, procurement, AI governance, and enterprise readiness. Written by UK-credentialled practitioners, for businesses operating in any market."
@@ -234,9 +235,9 @@ export default function BlogPage() {
                   </span>
 
                   {/* Title */}
-                  <h3 className="text-xl font-bold text-white mb-3 leading-tight group-hover:text-accent transition-colors">
+                  <h2 className="text-xl font-bold text-white mb-3 leading-tight group-hover:text-accent transition-colors">
                     {post.title}
-                  </h3>
+                  </h2>
 
                   {/* Description */}
                   <p className="text-gray-400 text-sm leading-relaxed mb-6 flex-1">
@@ -268,9 +269,9 @@ export default function BlogPage() {
           className="mt-20 text-center"
         >
           <div className="bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl p-10 max-w-2xl mx-auto">
-            <h3 className="text-2xl font-bold text-white mb-3">
+            <h2 className="text-2xl font-bold text-white mb-3">
               Need expert guidance?
-            </h3>
+            </h2>
             <p className="text-gray-400 mb-6">
               Book a free consultation with our compliance team to discuss your
               certification needs.

@@ -8,6 +8,7 @@ interface SectionHeadingProps {
   dark?: boolean;
   centered?: boolean;
   className?: string;
+  as?: "h1" | "h2";
 }
 
 export default function SectionHeading({
@@ -17,6 +18,7 @@ export default function SectionHeading({
   dark = true,
   centered = true,
   className,
+  as: HeadingTag = "h2",
 }: SectionHeadingProps) {
   return (
     <div className={cn(centered && "text-center", "mb-12 lg:mb-16", className)}>
@@ -25,14 +27,14 @@ export default function SectionHeading({
           {label}
         </SectionLabel>
       )}
-      <h2
+      <HeadingTag
         className={cn(
           "text-3xl md:text-4xl lg:text-5xl font-extrabold tracking-tight",
           dark ? "gradient-text-white" : "gradient-text"
         )}
       >
         {title}
-      </h2>
+      </HeadingTag>
       {description && (
         <p
           className={cn(

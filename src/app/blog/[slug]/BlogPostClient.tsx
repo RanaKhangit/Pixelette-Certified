@@ -49,13 +49,16 @@ export default function BlogPostClient({
             headline: post.title,
             description: post.description,
             datePublished: post.date,
+            dateModified: post.date,
             author: {
               "@type": "Person",
               name: post.author,
               jobTitle: post.authorRole,
+              worksFor: { "@id": "https://pixelettecertified.com/#organization" },
             },
             publisher: {
               "@type": "Organization",
+              "@id": "https://pixelettecertified.com/#organization",
               name: "Pixelette Certified",
               url: "https://pixelettecertified.com",
             },

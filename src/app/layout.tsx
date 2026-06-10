@@ -22,10 +22,10 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_CONFIG.url),
   title: {
-    default: "Pixelette Certified | ISO Certification & Global Compliance Consultancy",
+    default: "ISO Certification & Compliance | Pixelette Certified",
     template: "%s | Pixelette Certified",
   },
-  description: "Get certified in as little as 10 weeks. Pixelette Certified delivers ISO 27001, ISO 42001, Cyber Essentials, GDPR, ISO 9001, ISO 22301 and more to businesses across every industry, worldwide. Fixed fee. 98% first-attempt pass rate.",
+  description: "Get ISO 27001, ISO 42001, Cyber Essentials, GDPR and more in as little as 10 weeks. Fixed-fee compliance consultancy. 98% first-attempt pass rate, worldwide.",
   keywords: [
     "ISO 27001 certification UK",
     "Cyber Essentials certification",
@@ -56,8 +56,11 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
+    site: "@pixelettecert",
+    creator: "@pixelettecert",
     title: "Pixelette Certified | ISO Certification & Compliance UK",
     description: SITE_CONFIG.description,
+    images: ["/images/og/default.png"],
   },
   robots: {
     index: true,

@@ -4,9 +4,9 @@ import JsonLd from "@/components/seo/JsonLd";
 import ServicesOverviewContent from "./ServicesOverviewContent";
 
 export const metadata: Metadata = {
-  title: "Our Services | ISO Certification & Compliance Consultancy",
+  title: "Our Services | ISO & Compliance",
   description:
-    "ISO 27001, ISO 42001, ISO 9001, ISO 22301, ISO 14001, Cyber Essentials, GDPR, vCISO, vDPO, and Penetration Testing. Global compliance consultancy for businesses across every industry.",
+    "ISO 27001, ISO 42001, ISO 9001, ISO 22301, ISO 14001, Cyber Essentials, GDPR, vCISO, vDPO and penetration testing. Global compliance for every industry.",
   keywords: [
     "ISO certification services UK",
     "cybersecurity services",

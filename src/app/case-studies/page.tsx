@@ -31,6 +31,7 @@ export default function CaseStudiesPage() {
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeading
+          as="h1"
           label="Case Studies"
           title="Real Results for Real Companies"
           description="How UK technology companies achieved certification faster, won enterprise deals, and built lasting compliance programmes."
@@ -51,9 +52,9 @@ export default function CaseStudiesPage() {
                 <Card variant="glass" className="h-full flex flex-col">
                   {/* Client snapshot */}
                   <div className="mb-6">
-                    <h3 className="text-xl font-bold text-white mb-1">
+                    <h2 className="text-xl font-bold text-white mb-1">
                       {study.client}
-                    </h3>
+                    </h2>
                     <p className="text-sm text-gray-400">
                       {study.industry}, {study.employees}
                     </p>
@@ -114,9 +115,9 @@ export default function CaseStudiesPage() {
           className="mt-20 text-center"
         >
           <div className="bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl p-10 max-w-2xl mx-auto">
-            <h3 className="text-2xl font-bold text-white mb-3">
+            <h2 className="text-2xl font-bold text-white mb-3">
               Want results like these?
-            </h3>
+            </h2>
             <p className="text-gray-400 mb-6">
               Every engagement starts with a free consultation. Let us assess
               your current position and design a roadmap to certification.

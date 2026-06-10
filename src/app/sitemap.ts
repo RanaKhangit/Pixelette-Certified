@@ -3,6 +3,10 @@ import { services } from "@/data/services";
 import { caseStudies } from "@/data/caseStudies";
 import { SITE_CONFIG } from "@/lib/constants";
 
+// Update when site structure/content materially changes; keeps sitemap lastmod
+// honest rather than stamping the request time on every fetch.
+const SITE_LAST_MODIFIED = new Date("2026-06-09");
+
 const blogPostSlugs: { slug: string; date: string }[] = [
   { slug: "iso-27001-security-questionnaire", date: "2026-04-07" },
   { slug: "iso-27001-10-weeks-vs-6-months", date: "2026-04-06" },
@@ -30,61 +34,61 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const staticPages: MetadataRoute.Sitemap = [
     {
       url: baseUrl,
-      lastModified: new Date(),
+      lastModified: SITE_LAST_MODIFIED,
       changeFrequency: "weekly",
       priority: 1.0,
     },
     {
       url: `${baseUrl}/about`,
-      lastModified: new Date(),
+      lastModified: SITE_LAST_MODIFIED,
       changeFrequency: "monthly",
       priority: 0.7,
     },
     {
       url: `${baseUrl}/pricing`,
-      lastModified: new Date(),
+      lastModified: SITE_LAST_MODIFIED,
       changeFrequency: "yearly",
       priority: 0.3,
     },
     {
       url: `${baseUrl}/contact`,
-      lastModified: new Date(),
+      lastModified: SITE_LAST_MODIFIED,
       changeFrequency: "monthly",
       priority: 0.7,
     },
     {
       url: `${baseUrl}/services`,
-      lastModified: new Date(),
+      lastModified: SITE_LAST_MODIFIED,
       changeFrequency: "monthly",
       priority: 0.8,
     },
     {
       url: `${baseUrl}/case-studies`,
-      lastModified: new Date(),
+      lastModified: SITE_LAST_MODIFIED,
       changeFrequency: "monthly",
       priority: 0.7,
     },
     {
       url: `${baseUrl}/blog`,
-      lastModified: new Date(),
+      lastModified: SITE_LAST_MODIFIED,
       changeFrequency: "weekly",
       priority: 0.7,
     },
     {
       url: `${baseUrl}/industries`,
-      lastModified: new Date(),
+      lastModified: SITE_LAST_MODIFIED,
       changeFrequency: "monthly",
       priority: 0.7,
     },
     {
       url: `${baseUrl}/privacy-policy`,
-      lastModified: new Date(),
+      lastModified: SITE_LAST_MODIFIED,
       changeFrequency: "yearly",
       priority: 0.3,
     },
     {
       url: `${baseUrl}/cookie-policy`,
-      lastModified: new Date(),
+      lastModified: SITE_LAST_MODIFIED,
       changeFrequency: "yearly",
       priority: 0.3,
     },
@@ -99,7 +103,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     .filter((service) => SERVICE_PAGES_WITH_ROUTES.has(service.slug))
     .map((service) => ({
       url: `${baseUrl}/services/${service.slug}`,
-      lastModified: new Date(),
+      lastModified: SITE_LAST_MODIFIED,
       changeFrequency: "monthly",
       priority: 0.8,
     }));

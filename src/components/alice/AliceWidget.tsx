@@ -60,6 +60,10 @@ export default function AliceWidget() {
               <img
                 src="/logos/favicon.svg"
                 alt="Alice"
+                width={32}
+                height={32}
+                loading="lazy"
+                decoding="async"
                 className="w-8 h-8 group-hover:scale-110 transition-transform duration-300"
               />
               <span className="absolute inset-0 rounded-full bg-[#C9A84C] animate-ping opacity-15" />
@@ -92,7 +96,7 @@ export default function AliceWidget() {
               <div className="flex items-center gap-3">
                 <div className="w-9 h-9 rounded-full bg-[#0A1628] border border-[#C9A84C]/40
                   flex items-center justify-center shrink-0 p-1.5">
-                  <img src="/logos/favicon.svg" alt="Alice" className="w-full h-full" />
+                  <img src="/logos/favicon.svg" alt="Alice" width={36} height={36} loading="lazy" decoding="async" className="w-full h-full" />
                 </div>
                 <div>
                   <div className="font-bold text-white text-sm">Alice</div>
